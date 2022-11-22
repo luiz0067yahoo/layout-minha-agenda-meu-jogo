@@ -1,0 +1,206 @@
+<html>
+	<head>
+		<title>Minha agenda meu jogo</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="description" content="Minha Agenda Meu Jogo, Essa é a solução do nosso esporte. Jogos, Diversão e Aizade"/>
+		<meta name="classification" content="Esportes, Notícias de Toledo e Região, Região Oeste, Paraná, Minha Agenda Meu Jogo"/>
+		<meta name="keywords" content="Minha Agenda Meu Jogo, Essa é a solução do nosso esporte. Jogos, Diversão e Aizade, Esportes, Notícias de Toledo e Região, Região Oeste, Paraná,  Minha Agenda Meu Jogo"/>
+		<meta name="author" content="Ailton Rodrigues da Silva - https://www.facebook.com/ailton.bodao"/>
+		<meta name="title" content="Minha Agenda Meu Jogo, Essa é a solução do nosso esporte. Jogos, Diversão e Aizade, Esportes"/>
+		<meta name="resource-type" content="document"/>
+		<meta name="robots" content="all"/>
+		<meta name="language" content="pt-br"/>
+		<meta name="doc-class" content="completed"/>
+		<meta name="doc-rights" content="Public"/>
+		<meta name="geo.placename" content="Toledo, Parana, Brazil"/>
+		<meta name="geo.region" content="br-pr"/>
+		<meta name="viewport" content="width=950,initial-scale=1, minimum-scale=1, maximum-scale=1.5"/>
+		<style type="text/css">
+			/* 	colocar as fontes aqui */
+			
+
+		</style>
+		<link  rel="shortcut icon" type="text/css" href="https://www.google.com.br/images/google_favicon_128.png"/>
+		<link  rel="stylesheet" type="text/css" media="screen" href="./css/default.css"/>
+		<link  rel="stylesheet" type="text/css" media="screen" href="./css/index.css"/>
+		<script type="text/javascript" src="./js/jquery-1.9.1.js"></script>
+		<script type="text/javascript">
+			$( document ).ready(function() {
+			// Handler for .ready() called.
+				ajustar_filme();
+			})
+		   function ajustar_filme(){
+				var qtd_foto_filme=$("#filme").find('.foto_filme').length;			
+				var qtd_divisor_filme=$("#filme").find('.divisor_filme').length;
+				
+				var largura_foto_filme=$("#filme").find(".foto_filme").first().width();
+				var largura_divisor_filme=$("#filme").find(".divisor_filme").first().width();
+				
+				var largura_filme=(qtd_foto_filme*largura_foto_filme)+(qtd_divisor_filme*largura_divisor_filme)
+				
+				$("#filme").width(largura_filme);
+				mover_filme();
+			}
+			function mover_filme(){
+				//alert($("#filme").offset().left)
+				$("#filme").scrollLeft(-100);
+			}
+		</script>
+	<body>
+		<div id="tudo">
+			<div id="topo">
+				<div class="centro_pagina">
+					<div class="linha" style="height:27px"></div>
+					<div class="linha" style="height:101px">
+						<div class="esquerda" style="height:101px;width:317px;"></div>
+						<div id="logo">
+							<img src="./imagens/logo.png" width="313px" height="101px" border="0">
+						</div>			
+						<div class="esquerda" style="height:101px;width:316px;">
+							<div class="linha" style="height:55px"></div>
+							<div class="linha" style="height:46px">
+								<div class="linha" style="height:32px">
+									<div class="esquerda" style="height:32px;width:20px;"></div>
+									<div id="texto_buscar" >Buscar:</div>
+									<div class="esquerda" style="height:32px;width:200px;">
+										<div class="linha" style="height:4px;width:200px;">
+											<div class="esquerda" style="height:4px;width:4px;background-image:url(imagens/buscar/canto_buscar_superior_esquerdo.png)"></div>
+											<div class="esquerda" style="height:4px;width:192px;background-image:url(imagens/buscar/lateral_buscar_superior.png)"></div>
+											<div class="esquerda" style="height:4px;width:4px;background-image:url(imagens/buscar/canto_buscar_superior_direito.png)"></div>
+										</div>
+										<div class="linha" style="height:24px;width:200px;">
+											<div class="esquerda" style="height:24px;width:4px;background-image:url(imagens/buscar/lateral_buscar_esquerda.png)"></div>
+											<div class="esquerda" style="height:24px;width:163px;background-color:#FFFFFF;">
+												<input type="text" style="height:24px;width:163px;background-color:transparent;border: 0px solid;">
+											</div>
+											<div class="esquerda" style="height:24px;width:24px;background-color:#FFFFFF;">
+												<div class="linha" style="height:3px;width:24px;"></div>
+												<div class="linha" style="height:21px;width:24px;">
+													<input type="image" height="21px" width="24px" border="0" src="imagens/buscar/lupa.png">
+												</div>
+											</div>
+											<div class="esquerda" style="height:24px;width:5px;background-color:#FFFFFF;"></div>
+											<div class="esquerda" style="height:24px;width:4px;background-image:url(imagens/buscar/lateral_buscar_direita.png)"></div>
+										</div>
+										<div class="linha" style="height:4px;width:200px;">
+											<div class="esquerda" style="height:4px;width:4px;background-image:url(imagens/buscar/canto_buscar_inferior_esquerdo.png)"></div>
+											<div class="esquerda" style="height:4px;width:192px;background-image:url(imagens/buscar/lateral_buscar_inferior.png)"></div>
+											<div class="esquerda" style="height:4px;width:4px;background-image:url(imagens/buscar/canto_buscar_inferior_direito.png)"></div>
+										</div>
+									</div>
+								</div>						
+							</div>						
+						</div>					
+					</div>
+				</div>
+			</div>
+			<div id="linha_menu">
+				<div class="centro_pagina">
+					<div class="menu" style="width:96px">Home</div>
+					<div class="divisor_menu">|</div>
+					<div class="menu" style="width:130px">Notícias</div>
+					<div class="divisor_menu">|</div>
+					<div class="menu" style="width:220px">Galeria de Fotos</div>
+					<div class="divisor_menu">|</div>
+					<div class="menu" style="width:244px">Galeria de Vídeos</div>
+					<div class="divisor_menu">|</div>
+					<div class="menu" style="width:131px">Agenda</div>
+					<div class="divisor_menu">|</div>
+					<div class="menu" style="width:109px">Contato</div>
+				</div>
+			</div>
+			<div class="linha" style="height:14px;"></div>
+			<div class="linha" style="height:auto;min-height:1889px;">
+				<div class="centro_pagina" style="height:auto;min-height:1889px;">
+					<div id="lateral_esquerda">
+						<div class="banner_1"></div>						
+						<div class="divisor_lateral_esquerda"></div>	
+						<div id="menus_esquerda">
+							<div id="titulo_menu_esquerda">ESPECIAIS</div>						
+							<div class="menu_esquerda_topo" ></div>						
+							<div class="menu_esquerda">Eventos</div>						
+							<div class="menu_esquerda">-------------------</div>						
+							<div class="menu_esquerda">Campo de Aluguel</div>						
+							<div class="menu_esquerda">-------------------</div>						
+							<div class="menu_esquerda">Torneios</div>						
+							<div class="menu_esquerda">-------------------</div>						
+							<div class="menu_esquerda">Médicos de Toledo</div>						
+							<div class="menu_esquerda">-------------------</div>						
+							<div class="menu_esquerda">Receitas</div>						
+							<div class="menu_esquerda"></div>		
+						</div>
+						<div class="divisor_lateral_esquerda"></div>
+						<div id="times">						
+							<div id="titulo_menu_esquerda">TIMES</div>						
+							<div class="menu_esquerda_topo" ></div>						
+							<div class="menu_esquerda">ZAELI</div>						
+							<div class="menu_esquerda">-------------------</div>						
+							<div class="menu_esquerda">ZAELI</div>						
+							<div class="menu_esquerda">-------------------</div>						
+							<div class="menu_esquerda">ZAELI</div>						
+							<div class="menu_esquerda">-------------------</div>						
+							<div class="menu_esquerda">ZAELI</div>						
+							<div class="menu_esquerda">-------------------</div>						
+							<div class="menu_esquerda">MAIS TIMES</div>						
+							<div class="menu_esquerda"></div>
+						</div>
+						<div class="divisor_lateral_esquerda"></div>						
+						<div class="banner_1"></div>						
+						<div class="divisor_lateral_esquerda"></div>						
+						<div class="banner_1"></div>						
+						<div class="divisor_lateral_esquerda"></div>						
+						<div class="banner_1"></div>						
+						<div class="divisor_lateral_esquerda"></div>						
+						<div class="banner_1"></div>						
+					</div>
+					<div class="divisor_conteudo"></div>
+					<div id="conteudo">					
+						<div id="filme" >	
+							<div class="borda_filme"></div>
+							<div class="linha" style="height:120px">
+								<div class="divisor_filme"></div>					
+								<div class="foto_filme"></div>					
+								<div class="divisor_filme"></div>	
+								<div class="foto_filme"></div>					
+								<div class="divisor_filme"></div>	
+								<div class="foto_filme"></div>					
+								<div class="divisor_filme"></div>	
+								<div class="foto_filme"></div>					
+								<div class="divisor_filme"></div>	
+								<div class="foto_filme"></div>						
+								<div class="divisor_filme"></div>	
+								<div class="foto_filme"></div>						
+								<div class="divisor_filme"></div>	
+								<div class="foto_filme"></div>					
+							</div>						
+							<div class="borda_filme"></div>					
+						</div>
+					</div>
+					<div class="divisor_conteudo"></div>
+					<div id="lateral_direita">
+						<div class="banner_2"></div>
+						<div class="divisor_lateral_direita"></div>	
+						<div class="banner_2"></div>
+						<div class="divisor_lateral_direita"></div>	
+						<div class="banner_2"></div>
+						<div class="divisor_lateral_direita"></div>	
+						<div class="banner_2"></div>
+						<div class="divisor_lateral_direita"></div>	
+						<div class="banner_2"></div>
+						<div class="divisor_lateral_direita"></div>	
+						<div class="banner_2"></div>
+						<div class="divisor_lateral_direita"></div>	
+						<div class="banner_2"></div>
+						<div class="divisor_lateral_direita"></div>	
+						<div class="banner_2"></div>
+						<div class="divisor_lateral_direita"></div>	
+						<div class="banner_2"></div>
+						<div class="divisor_lateral_direita"></div>	
+						<div class="banner_2"></div>
+						<div class="divisor_lateral_direita"></div>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

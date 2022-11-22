@@ -1,0 +1,244 @@
+#topo{
+	height:129px;
+	background-color:#006633;
+    width:100%;
+    margin-left:0px;
+    margin-right:0px;
+    clear:both;
+	display:block;
+}
+div.centro_pagina{
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    left:auto;
+    right:auto;
+	width:946px;
+	height:auto;
+	display:block;
+}
+#logo{
+	width:313px;
+	height:101px;
+    float:left;
+	display:block;
+}
+#texto_buscar{/*   coloca o bloco a esquerda  	*/
+	float:left;
+	height:auto;	
+	display:block;
+	height:32px;
+	line-height:32px;
+	width:80px;
+	font-size:20px;
+	font-family:Arial;
+	color:#FFFFFF;	
+}
+div.divisor_menu{/*   coloca o bloco a esquerda  	*/
+	float:left;
+	display:block;
+	height:auto;	
+	min-height:49px;
+	line-height:49px;
+	width:3px;
+	font-size:24px;
+	font-family:Arial;
+	color:#666666;	
+}
+#linha_menu{/*   coloca o bloco a esquerda  	*/
+	height:auto;
+	min-height:49px;
+	background-color:#D9E8E0;	
+	border-style:solid;	
+	border-color:#D9E8E0;
+
+	border-top-style:solid;/*borda do topo com largura de 1px e cinza mais escuro*/
+	border-top-width:1px;
+	border-top-color:#6DA78A;
+	
+	border-right-style:none;/*borda da direita vazia*/
+	
+	border-bottom-style:solid;/*borda de baixo com largura de 1px e cinza mais claro*/
+	border-bottom-width:1px;
+	border-bottom-color:#ACCDBD;
+	
+	border-left-style:none;	/*borda da esquerda vazia*/
+
+	width:100%;
+    margin-left:0px;
+    margin-right:0px;
+    clear:both;
+	display:block;
+}
+div.menu{/*   coloca o bloco a esquerda  	*/
+	float:left;
+	display:block;
+	height:auto;	
+	min-height:49px;
+	line-height:49px;
+	font-size:24px;
+	font-family:Arial;
+	text-align:center;
+	color:#666666;
+}
+#lateral_esquerda{/*   coloca o bloco a esquerda  	*/
+	float:left;
+	height:auto;	
+	display:block;
+	height:auto;
+	min-height:1889px;
+	width:200px;/*-7*/
+}
+div.banner_1{/*   coloca o bloco a esquerda  	*/
+	float:left;
+	height:auto;	
+	display:block;
+	height:auto;
+	min-height:150px;
+	width:200px;
+	background-color:#FFFFB8;
+}
+div.banner_2{/*   coloca o bloco a esquerda  	*/
+	float:left;
+	height:auto;	
+	display:block;
+	height:auto;
+	min-height:150px;
+	width:150px;
+	background-color:#FFFFB8;
+}
+div.banner_3{/*   coloca o bloco a esquerda  	*/
+	float:left;
+	height:auto;	
+	display:block;
+	height:auto;
+	min-height:300px;
+	width:150px;
+	background-color:#FFFFB8;
+}
+div.divisor_lateral_esquerda{/*   coloca o bloco a esquerda  	*/
+    width:100%;
+    height:auto;
+    margin-left:0px;
+    margin-right:0px;
+    clear:both;
+	display:block;
+	min-height:25px;
+	width:200px;
+}
+#titulo_menu_esquerda{/*   coloca o bloco a esquerda  	*/
+    width:100%;
+    height:auto;
+    margin-left:0px;
+    margin-right:0px;
+    clear:both;
+	display:block;
+	min-height:40px;
+	line-height:40px;
+	font-size:24px;
+	font-family:Arial;
+	text-align:center;
+	font-weight:bold;
+	color:#FFF;
+	background-color:#006633;
+}
+div.menu_esquerda_topo{/*   coloca o bloco a esquerda  	*/
+    width:100%;
+    height:auto;
+    margin-left:0px;
+    margin-right:0px;
+    clear:both;
+	display:block;
+	min-height:10px;
+	background-color:#D9E8E0;
+}
+div.menu_esquerda{/*   coloca o bloco a esquerda  	*/
+    width:100%;
+    height:auto;
+    margin-left:0px;
+    margin-right:0px;
+    clear:both;
+	display:block;
+	min-height:33px;
+	line-height:33px;
+	font-size:24px;
+	font-family:Arial;
+	text-align:center;
+	font-weight:bold;
+	color:#666;
+	background-color:#D9E8E0;
+}
+
+
+
+div.divisor_conteudo{/*   coloca o bloco a esquerda  	*/
+	float:left;
+	height:auto;	
+	display:block;
+	height:auto;
+	min-height:1889px;
+	width:15px;/*-7*/
+}
+
+#conteudo{/*   coloca o bloco a esquerda  	*/
+	float:left;
+	height:auto;	
+	display:block;
+	height:auto;
+	min-height:1889px;
+	width:566px;/*-7*/
+	overflow-x:hidden;
+}
+#filme {/*   dividi a area em linha de qualquer altura  	*/
+    width:566px;
+    height:auto;
+    min-height:174px;
+    margin-left:0px;
+    margin-right:0px;
+    clear:both;
+	display:block;
+}
+div.borda_filme {/*   dividi a area em linha de qualquer altura  	*/
+    width:100%;
+    height:auto;
+    min-height:27px;
+    margin-left:0px;
+    margin-right:0px;
+    clear:both;
+	display:block;
+	background-image:url(../imagens/filme/borda_filme.png)
+}
+div.divisor_filme{/*   coloca o bloco a esquerda  	*/
+	height:120px;
+	width:17px;
+	float:left;
+	display:block;
+	background-color:#000;
+}
+div.foto_filme{/*   coloca o bloco a esquerda  	*/
+	height:120px;
+	width:160px;
+	float:left;
+	display:block;
+	background-color:#FFF;
+}
+
+/*160 120 17 27*/
+#lateral_direita{/*   coloca o bloco a esquerda  	*/
+	float:left;
+	height:auto;	
+	display:block;
+	height:auto;
+	min-height:1889px;
+	width:150px;/*+1*/
+}
+div.divisor_lateral_direita{/*   coloca o bloco a esquerda  	*/
+    width:100%;
+    height:auto;
+    margin-left:0px;
+    margin-right:0px;
+    clear:both;
+	display:block;
+	min-height:25px;
+	width:150px;
+}
